@@ -1,0 +1,18 @@
+@use '../../App.scss' as styles;
+
+$scale: styles.$scaleY;
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px * $scale;
+
+    font-size: 60px * $scale;
+    font-weight: 700;
+    color: #616161;
+
+    &__dot {
+        font-size: 44px * $scale;
+    }
+}

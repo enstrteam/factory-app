@@ -1,0 +1,146 @@
+@use '../../App.scss' as styles;
+
+$scale: styles.$scaleY;
+
+$base-width: 587px;
+$base-height: 350px;
+
+.card {
+  width: $base-width * $scale;
+  height: $base-height * $scale;
+  border-radius: 20px * $scale;
+  position: relative;
+
+ 
+
+  &_grass {
+    background: linear-gradient(111.75deg, #d2ecb3 -5.17%, #a8d079 110.75%);
+    box-shadow: inset 5px * $scale 5px * $scale 15px * $scale rgba(255, 255, 255, 0.25);
+    filter: drop-shadow(5px * $scale 5px * $scale 10px * $scale #A4C17D);
+    stroke: #9DC173;
+  }
+
+  &_parket {
+    background: linear-gradient(111.75deg, #FFE29F -5.17%, #E5C476 110.75%);
+    box-shadow: inset 5px * $scale 5px * $scale 15px * $scale rgba(255, 255, 255, 0.25);
+    filter: drop-shadow(5px * $scale 5px * $scale 10px * $scale #CFB26D);
+    stroke: #E2BA71;
+  }
+
+  &__lines {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+    svg {
+        width: $base-width * $scale;
+        height: $base-height * $scale;  
+    }   
+  }
+
+  &__number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 320px * $scale;
+
+    color: white;
+    opacity: 0.5;
+    z-index: 2;
+
+  }
+
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px * $scale;
+    padding: 20px * $scale;
+    
+    z-index: 3;
+
+    &__block, .block {
+
+      display: flex;
+      height: 145px * $scale;
+      gap: 35px * $scale;
+
+
+      &__left-side {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 160px * $scale;
+        gap: 10px * $scale;
+
+      }    
+      
+      &__activity {
+        font-family: 'Core Rhino', sans-serif;
+        font-size: 30px * $scale;
+        line-height: 110%;
+        font-weight: 500;
+        color: #2F2F2F;
+
+
+      }
+
+      &__time {
+        display: inline-block;
+        font-size: 24px * $scale;
+        font-weight: 700;
+        padding: 10px * $scale;
+        border-radius: 10px * $scale;
+        background-color: rgba(255, 255, 255, 0.5);
+
+        &_play {
+          color: #007A32;
+        }
+
+        &_ready
+         {
+          color: #CA5C1E;
+        }
+      }
+
+      &__right-side {
+        width: 360px * $scale;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px * $scale;
+
+      }
+
+      &__team-name {
+        font-size: 30px * $scale;
+        line-height: 110%;
+        font-weight: 600;
+        letter-spacing: -2%;
+
+      }
+
+      &__locker-room {
+        font-size: 24px * $scale;
+        font-weight: 500;
+        color: #2F2F2F;
+
+      }
+    }
+  }
+
+  
+
+}
+
+.hidden {
+  display: none !important;
+}

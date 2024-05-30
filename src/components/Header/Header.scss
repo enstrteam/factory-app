@@ -1,0 +1,33 @@
+@use '../../App.scss' as styles;
+
+$scale: styles.$scaleY;
+
+.header {
+    padding-top: 10px * $scale;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px * $scale;
+    margin-bottom: 50px * $scale;
+
+
+
+    &__logo-text {
+        font-size: 74px * $scale;
+        font-weight: 700;
+        line-height: 70%;
+
+    }
+
+    &__logo {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        
+        svg {
+            width: 148px * $scale;
+            height: 114px  * $scale;  
+        }
+    }
+
+}

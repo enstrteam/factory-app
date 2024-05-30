@@ -1,0 +1,21 @@
+@import './assets/styles/fonts.scss';
+
+$min-container-width: 1920px;
+$min-container-height: 1080px;
+
+$scaleX: calc(100vw / 1920px);
+$scaleY: calc(100vh / 1080px);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Core Rhino";
+}
+
+.container {
+  
+  width: $min-container-width * $scaleX;
+  height: $min-container-height * $scaleY;
+  background: linear-gradient(180deg, rgba(240, 255, 222, 0.4) 3.38%, #DEEDCD 89.64%);
+
+}

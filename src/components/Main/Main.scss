@@ -1,0 +1,12 @@
+@use '../../App.scss' as styles;
+
+$scale: styles.$scaleY;
+
+.main {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px * $scale;
+    margin-bottom: 50px * $scale;
+
+}
