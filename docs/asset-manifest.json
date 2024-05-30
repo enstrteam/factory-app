@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e020723.css",
-    "main.js": "/static/js/main.d70ec33d.js",
-    "static/js/453.055aad16.chunk.js": "/static/js/453.055aad16.chunk.js",
-    "static/media/CoreRhino65Bold.woff2": "/static/media/CoreRhino65Bold.ca7f9ff77d2f8ac396c6.woff2",
-    "static/media/CoreRhino45Regular.woff2": "/static/media/CoreRhino45Regular.688321c3df90ba0cb2ed.woff2",
-    "static/media/CoreRhino35Light.woff2": "/static/media/CoreRhino35Light.8e373f5ebc173ba74311.woff2",
-    "static/media/CoreRhino75Heavy.woff2": "/static/media/CoreRhino75Heavy.6e712279193aecf3c328.woff2",
-    "static/media/CoreRhino55Medium.woff2": "/static/media/CoreRhino55Medium.fefb330ab26c5c22ec0d.woff2",
-    "static/media/CoreRhino85Black.woff2": "/static/media/CoreRhino85Black.5ab90394cb43dcb041f9.woff2",
-    "static/media/CoreRhino25Thin.woff2": "/static/media/CoreRhino25Thin.7e2eb5cbb7b5773454a9.woff2",
-    "index.html": "/index.html",
-    "main.0e020723.css.map": "/static/css/main.0e020723.css.map",
-    "main.d70ec33d.js.map": "/static/js/main.d70ec33d.js.map",
-    "453.055aad16.chunk.js.map": "/static/js/453.055aad16.chunk.js.map"
+    "main.css": "/factory-app/static/css/main.7b45b452.css",
+    "main.js": "/factory-app/static/js/main.9cff8975.js",
+    "static/js/453.055aad16.chunk.js": "/factory-app/static/js/453.055aad16.chunk.js",
+    "static/media/CoreRhino65Bold.woff2": "/factory-app/static/media/CoreRhino65Bold.ca7f9ff77d2f8ac396c6.woff2",
+    "static/media/CoreRhino45Regular.woff2": "/factory-app/static/media/CoreRhino45Regular.688321c3df90ba0cb2ed.woff2",
+    "static/media/CoreRhino35Light.woff2": "/factory-app/static/media/CoreRhino35Light.8e373f5ebc173ba74311.woff2",
+    "static/media/CoreRhino75Heavy.woff2": "/factory-app/static/media/CoreRhino75Heavy.6e712279193aecf3c328.woff2",
+    "static/media/CoreRhino55Medium.woff2": "/factory-app/static/media/CoreRhino55Medium.fefb330ab26c5c22ec0d.woff2",
+    "static/media/CoreRhino85Black.woff2": "/factory-app/static/media/CoreRhino85Black.5ab90394cb43dcb041f9.woff2",
+    "static/media/CoreRhino25Thin.woff2": "/factory-app/static/media/CoreRhino25Thin.7e2eb5cbb7b5773454a9.woff2",
+    "index.html": "/factory-app/index.html",
+    "main.7b45b452.css.map": "/factory-app/static/css/main.7b45b452.css.map",
+    "main.9cff8975.js.map": "/factory-app/static/js/main.9cff8975.js.map",
+    "453.055aad16.chunk.js.map": "/factory-app/static/js/453.055aad16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e020723.css",
-    "static/js/main.d70ec33d.js"
+    "static/css/main.7b45b452.css",
+    "static/js/main.9cff8975.js"
   ]
 }
